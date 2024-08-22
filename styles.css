@@ -1,65 +1,21 @@
 
-/* Your CSS Code here. */
-/* .first{
-	display:flex;
-	justify-content:space-between;
-	align-items:center;
-	flex-wrap:wrap;
-}
-.red{
-	background-color:red;
-	height:100px;
-	width:100px
-}
-.blue{
-	background-color:blue;
-	height:100px;
-	width:100px
-}
-.green{
-	height:100px;
-	width:100px;
-	background-color:green;
-}
-.second{
-	display:flex;
-	align-items:center;
-	flex-wrap:wrap;
-}
-.green1{
-	height:100px;
-	width:100px;
-	background-color:green;
-	margin:5px;
-}
-.red1{
-	height:100px;
-	width:100px;
-	background-color:red;
-	margin:5px;
-}
-.blue1{
-	height:100px;
-	width:100px;
-	background-color:blue;
-} */
 
 .holder {
           display: flex;
-          justify-content: space-between; /* Distributes space between items */
-          align-items: center; /* Vertically centers items */
-          flex-wrap: wrap; /* Allows items to wrap onto the next row */
+          justify-content: space-between; 
+          align-items: center; 
+          flex-wrap: wrap; 
         }
 
         .item {
-          flex: 0 0 150px; /* Sets a fixed width of 150px for each item */
-          height: 150px; /* Sets a fixed height */
-          margin: 5px; /* Adds space around items */
+          flex: 0 0 150px; 
+          height: 150px; 
+          margin: 5px; 
           display: flex;
-          justify-content: center; /* Centers the number horizontally */
-          align-items: center; /* Centers the number vertically */
-          font-size: 24px; /* Sets font size for the numbers */
-          color: black; /* Text color */
+          justify-content: center; 
+          align-items: center;
+          font-size: 24px; 
+          color: black; 
         }
 
         .item1 { background-color: red; }
