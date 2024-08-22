@@ -1,6 +1,6 @@
 
 /* Your CSS Code here. */
-.first{
+/* .first{
 	display:flex;
 	justify-content:space-between;
 	align-items:center;
@@ -42,4 +42,30 @@
 	height:100px;
 	width:100px;
 	background-color:blue;
-}
+} */
+
+.holder {
+          display: flex;
+          justify-content: space-between; /* Distributes space between items */
+          align-items: center; /* Vertically centers items */
+          flex-wrap: wrap; /* Allows items to wrap onto the next row */
+        }
+
+        .item {
+          flex: 0 0 150px; /* Sets a fixed width of 150px for each item */
+          height: 150px; /* Sets a fixed height */
+          margin: 5px; /* Adds space around items */
+          display: flex;
+          justify-content: center; /* Centers the number horizontally */
+          align-items: center; /* Centers the number vertically */
+          font-size: 24px; /* Sets font size for the numbers */
+          color: black; /* Text color */
+        }
+
+        .item1 { background-color: red; }
+        .item2 { background-color: blue; }
+        .item3 { background-color: green; }
+        .item4 { background-color: green; }
+        .item5 { background-color: green; }
+        .item6 { background-color: green; }
+        .item7 { background-color: green; }
