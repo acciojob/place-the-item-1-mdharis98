@@ -1,2 +1,45 @@
 
 /* Your CSS Code here. */
+.first{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.red{
+	background-color:red;
+	height:100px;
+	width:100px
+}
+.blue{
+	background-color:blue;
+	height:100px;
+	width:100px
+}
+.green{
+	height:100px;
+	width:100px;
+	background-color:green;
+}
+.second{
+	display:flex;
+	align-items:center;
+	flex-wrap:wrap;
+}
+.green1{
+	height:100px;
+	width:100px;
+	background-color:green;
+	margin:5px;
+}
+.red1{
+	height:100px;
+	width:100px;
+	background-color:red;
+	margin:5px;
+}
+.blue1{
+	height:100px;
+	width:100px;
+	background-color:blue;
+}
